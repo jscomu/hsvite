@@ -6,7 +6,6 @@ import Home from './Home.jsx'
 import Prof from './Prof.jsx';
 import Flag from './Flag.jsx';
 import Intro from './Intro.jsx'
-import Tetris from './Tetris.jsx'
 import Pacman from './Pacman.jsx';
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
             <Route path="Prof" element={<Prof />} />
             <Route path="Flag" element={<Flag />} />
             <Route path="Intro" element={<Intro />} />
-            <Route path="Tetris" element={<Tetris />} />
             <Route path="Pacman" element={<Pacman />} />
             {/* <Route path="Ground" element={<Ground />} /> */}
             {/* <Route path="Easy" element={<Easy />} /> */}
