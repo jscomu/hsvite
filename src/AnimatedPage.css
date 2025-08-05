@@ -1,0 +1,73 @@
+
+.animated-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.animated-page-container h1 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.animated-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.animated-card h2 {
+  color: #ff7e5f;
+  margin-bottom: 10px;
+}
+
+.animated-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.animated-button {
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-button:hover {
+  background-color: #feb47b;
+}
+
+.animated-button span {
+  position: relative;
+  z-index: 1;
+}
