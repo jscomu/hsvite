@@ -1,0 +1,42 @@
+.bgGradation {
+    /* 글자 상하 중앙 정렬 */
+    display: grid;
+    place-items: center;
+
+    /* height: 100vh; */
+    height: calc(100vh - 84px); /* 뷰포트 전체 높이에서 84px을 뺀 높이 */
+    background: linear-gradient(-45deg, #ee8432, #ff606c, #edca35);
+    background-size: 400% 400%;
+    animation: colorChange 3s ease infinite;
+}
+@keyframes colorChange{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.typing-text {
+    width: 32ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 4em;
+    font-family: 'Nanum Pen Script', cursive; /*궁서*/
+    animation: typing 3s steps(50), blink .5s step-end infinite alternate;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}

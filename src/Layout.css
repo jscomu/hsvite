@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tit {
+    font-size: 2rem;
+    color: yellow;
+    margin-left: 10px;
+    text-shadow: 5px 5px 5px black;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    /*상하 중앙정렬*/
+    background-color: blue;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    
+    display: inline-block;  /*메뉴 좌우로 나열되게...*/
+    margin: 0 10px; /*상하는0 좌우만10px*/
+    padding: 10px;
+}
+nav li:hover {
+    background: #c0692c;
+    border-radius: 5px;
+}
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}

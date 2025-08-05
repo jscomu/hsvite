@@ -1,0 +1,46 @@
+.pacman-container {
+    text-align: center;
+}
+
+.pacman-board {
+    display: grid;
+    grid-template-columns: repeat(19, 20px);
+    grid-template-rows: repeat(21, 20px);
+    border: 2px solid #0000ff;
+    background-color: #000;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.wall {
+    background-color: #0000ff;
+}
+
+.dot {
+    background-image: radial-gradient(circle, #fff 2px, transparent 2px);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.power-pellet {
+    background-image: radial-gradient(circle, #fff 5px, transparent 5px);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pacman {
+    width: 16px;
+    height: 16px;
+    background-color: #ffff00;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 50% 60%, 0% 50%, 50% 40%);
+}

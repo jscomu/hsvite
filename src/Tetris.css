@@ -1,0 +1,74 @@
+.tetris-wrapper {
+    outline: none;
+}
+
+.tetris {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.stage {
+    display: grid;
+    grid-template-rows: repeat(20, 25px);
+    grid-template-columns: repeat(12, 25px);
+    grid-gap: 1px;
+    border: 2px solid #333;
+    background: #111;
+}
+
+.cell {
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.cell.I { background-color: rgba(80, 227, 230, 0.8); }
+.cell.J { background-color: rgba(36, 95, 223, 0.8); }
+.cell.L { background-color: rgba(223, 173, 36, 0.8); }
+.cell.O { background-color: rgba(223, 217, 36, 0.8); }
+.cell.S { background-color: rgba(48, 211, 56, 0.8); }
+.cell.T { background-color: rgba(132, 61, 198, 0.8); }
+.cell.Z { background-color: rgba(227, 78, 78, 0.8); }
+
+
+aside {
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    padding: 0 20px;
+}
+
+.display {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    border: 4px solid #333;
+    min-height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    color: #999;
+    background: #000;
+    font-family: Pixel, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+.startButton {
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    min-height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: #333;
+    font-family: Pixel, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
