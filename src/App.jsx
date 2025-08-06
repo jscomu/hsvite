@@ -8,6 +8,7 @@ import Flag from './Flag.jsx';
 import Intro from './Intro.jsx'
 import Pacman from './Pacman.jsx';
 import RacingGame from './RacingGame.jsx';
+import Lotto from './Lotto.jsx';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="Intro" element={<Intro />} />
             <Route path="Pacman" element={<Pacman />} />
             <Route path="Racing" element={<RacingGame />} />
+            <Route path="Lotto" element={<Lotto />} />
             {/* <Route path="Ground" element={<Ground />} /> */}
             {/* <Route path="Easy" element={<Easy />} /> */}
           </Route>

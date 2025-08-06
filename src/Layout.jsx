@@ -15,6 +15,7 @@ function Layout() {
                     <li><Link to="/Intro">소개</Link></li>
                     <li><Link to="/Pacman">Pacman</Link></li>
                     <li><Link to="/Racing">Racing Game</Link></li>
+                    <li><Link to="/Lotto">Lotto</Link></li>
                 </ul>
                 <div>#</div>
             </nav>
