@@ -7,6 +7,7 @@ import Prof from './Prof.jsx';
 import Flag from './Flag.jsx';
 import Intro from './Intro.jsx'
 import Pacman from './Pacman.jsx';
+import RacingGame from './RacingGame.jsx';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="Flag" element={<Flag />} />
             <Route path="Intro" element={<Intro />} />
             <Route path="Pacman" element={<Pacman />} />
+            <Route path="Racing" element={<RacingGame />} />
             {/* <Route path="Ground" element={<Ground />} /> */}
             {/* <Route path="Easy" element={<Easy />} /> */}
           </Route>
