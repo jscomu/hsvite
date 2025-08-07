@@ -11,6 +11,7 @@ function Layout() {
                     {/* <li><Link to="/Prof">Profile</Link></li> */}
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Prof">Profile</Link></li>
+                    <li><Link to="/Arrow">Arr</Link></li>
                     <li><Link to="/Flag">국기</Link></li>
                     <li><Link to="/Intro">소개</Link></li>
                     <li><Link to="/Pacman">Pacman</Link></li>
