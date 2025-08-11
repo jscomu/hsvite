@@ -10,6 +10,7 @@ import Intro from './Intro.jsx'
 import Pacman from './Pacman.jsx';
 import RacingGame from './RacingGame.jsx';
 import Lotto from './Lotto.jsx';
+import Floating from './Floating.jsx';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             {/* <Route path="Easy" element={<Easy />} /> */}
           </Route>
         </Routes>
+        <Floating />
       </BrowserRouter>
     </>
   )

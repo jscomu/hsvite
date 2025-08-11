@@ -1,0 +1,36 @@
+.floating-menu {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  
+}
+ 
+.menu-btn {
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #b18c79;
+ 
+  /*버튼 안 텍스트 중앙정렬*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+ 
+  white-space: nowrap;
+ 
+  cursor: pointer;  /*pointer: 클릭 가능한 버튼, 링크 등에 주로 사용됩니다.*/
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+}
+
+.modal-close-button {
+  display: block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
