@@ -1,36 +1,44 @@
-.floating-menu {
+
+.floatcon {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
-  
-}
- 
-.menu-btn {
-  border: none;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  background-color: #b18c79;
- 
-  /*버튼 안 텍스트 중앙정렬*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
- 
-  white-space: nowrap;
- 
-  cursor: pointer;  /*pointer: 클릭 가능한 버튼, 링크 등에 주로 사용됩니다.*/
-  font-family: "Gothic A1", sans-serif;
-  font-size: 14px;
+  bottom: 20px;
+  right: 20px;
 }
 
-.modal-close-button {
-  display: block;
-  margin-top: 15px;
-  padding: 8px 16px;
+.togbtn {
+  padding: 15px;
   border: none;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  cursor: pointer;
+  background-color: yellow;
+  color: blue;
+  border-radius: 10px;
+  cursor: pointer;  /* 커서 모양 변경 */
+  font-size: 1rem;
+}
+.floatcon .togbtn:hover {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.notibox {
+  width: 300px;
+  max-height: 400px;
+  background-color: beige;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  
+  position: absolute;
+  bottom: 50px; /* 버튼 위쪽에 위치하도록 설정 */
+  right: 0; /*좌우 위치를 버튼 오른쪽에 맞추기 위해*/
+  
+  overflow-y: auto; /* 내용이 많아지면 스크롤 가능 */
+
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.notibox.hidden {
+  /* display: none; */
+  opacity: 0;
 }

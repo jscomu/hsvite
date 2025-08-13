@@ -5,7 +5,7 @@ function Layout() {
     return (
         <div>
             <nav>
-                <div className='tit'>ExcitingCoding</div>
+                <div className='tit'>Right Now</div>
                 <ul>
                     {/* <li><Link to="/">Home</Link></li> */}
                     {/* <li><Link to="/Prof">Profile</Link></li> */}
